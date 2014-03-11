@@ -1,0 +1,19 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "res/xml/config.xml": {
+            "/*": {
+                "<feature name=\"RfidScanner\"><param name=\"android-package\" value=\"com.eficid.cordova.plugin.RfidScanner\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.eficid.cordova.plugin.rfidscanner": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    },
+    "dependent_plugins": {}
+}
